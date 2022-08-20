@@ -1,0 +1,28 @@
+#chat {
+    width: 100%;
+    min-height: 80vh;
+    background: rgb(227, 227, 227);
+}
+
+#message-field {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.message-row {
+    display: flex;
+}
+
+.sender {
+    background: black;
+    color: white;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.message {
+    font-size: 15px;
+    flex-grow: 1;
+}
